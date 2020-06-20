@@ -24,7 +24,7 @@ DEVICE_PATH := device/asus/X00P
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := X00P_defconfig
+TARGET_KERNEL_CONFIG := msm8937-perf_defconfig
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2020-01-01
